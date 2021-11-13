@@ -10,14 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:name=".NavDrawer"
+            android:exported="true"
+            android:label="Proyecto"
+            android:theme="@style/Theme.Proyecto.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/SplashTheme">
         </activity>
     </application>
 

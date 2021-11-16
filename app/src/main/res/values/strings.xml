@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">START</string>
+    <string name="NuevaZelanda">Nueva Zelanda</string>
+
+    <string name="Hobbiton">Hobbiton</string>
+    <string name="HobbitonDescripcion">Entra al mundo de El Señor de los Anillos...</string>
+
+    <string name="Tongariro">Tongariro</string>
+    <string name="TongariroDescripcion">Parque Nacional de Tongariro | Un paisaje volcánico para la aventura...</string>
+
+    <string name="MilfordSound">Milford Sound</string>
+    <string name="MilfordSoundDescripcion">El fiordo más impactante que ver en Nueva Zelanda...</string>
+
+    <string name="kahurangi">kahurangi</string>
+    <string name="kahurangiDescripcion"> Parque nacional de Kahurangi | Un reto imperdible para los senderistas...</string>
+
+    <string name="CathedralCove">Cathedral Cove</string>
+    <string name="CathedralCoveDescripcion">Si has visto Las Crónicas de Narnia es posible que la Cathedral Cove te suene...</string>
+
+
+</resources>

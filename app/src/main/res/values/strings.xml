@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">START</string>
+    <string name="app_name">Magical</string>
     <string name="NuevaZelanda">Nueva Zelanda</string>
 
     <string name="Hobbiton">Hobbiton</string>
@@ -16,6 +16,15 @@
 
     <string name="CathedralCove">Cathedral Cove</string>
     <string name="CathedralCoveDescripcion">Si has visto Las Crónicas de Narnia es posible que la Cathedral Cove te suene...</string>
+
+    <string name="ElephantRocks">Elephant Rocks</string>
+    <string name="ElephantRocksDescripcion">Peculiares caprichos de la geología neozelandesa...</string>
+
+    <string name="CuevasDeWaitomo">Cuevas de Waitomo</string>
+    <string name="CuevasDeWaitomoDescripcion">Uno de los sitios imperdibles que ver en Nueva Zelanda...</string>
+
+    <string name="Christchurch">Christchurch</string>
+    <string name="ChristchurchDescripcion">Combinación de herencia colonial y modernidad...</string>
 
 
 </resources>

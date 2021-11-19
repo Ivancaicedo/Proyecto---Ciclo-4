@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#D8D8D8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="275dp"
+            android:layout_height="57dp"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.304"
+            app:srcCompat="@mipmap/mobiledevs" />
+
+        <ImageView
+            android:id="@+id/imageButton4"
+            android:layout_width="59dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/borde_redondo"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="474dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/dhfedfhae" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="359dp"
+            android:layout_height="284dp"
+            android:layout_marginBottom="120dp"
+            android:text="Si algo posicionó a Nueva Zelanda en el top ten de los destinos turísticos, sin duda es la trilogía de El Señor de los Anillos. Se trata de una de las películas más premiadas y taquilleras de todos los tiempos. Miles visitan el país para explorar los paisajes que Gandalf, Aragorn, Frodo y compañía recorren en la historia. ¿Los recuerdas?  Uno de los sitios emblemáticos es Hobbiton en Nueva Zelanda, un pueblo de pequeñas casas excavadas en las verdes colinas de una montaña. En la trama, este es el hogar de Frodo, Bilbo, Sam y los demás hobbits de la comarca.  Los realizadores decidieron dejar el set de rodaje como atractivo turístico."
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@+id/mapView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="356dp"
+            android:layout_height="112dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="292dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

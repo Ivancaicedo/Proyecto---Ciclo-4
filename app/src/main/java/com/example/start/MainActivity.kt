@@ -24,6 +24,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity2::class.java))
         }
 
+        val tongariro=findViewById<RelativeLayout>(R.id.relativeLayout2)
+        tongariro.setOnClickListener {
+            startActivity(Intent(this, MainActivity3::class.java))
+        }
+
+        val milford=findViewById<RelativeLayout>(R.id.Milford)
+        milford.setOnClickListener {
+            startActivity(Intent(this, MainActivity4::class.java))
+        }
+
 
     }
 

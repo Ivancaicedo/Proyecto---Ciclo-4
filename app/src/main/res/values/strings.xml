@@ -31,4 +31,12 @@
 
         Uno de los sitios emblemáticos es Hobbiton en Nueva Zelanda, un pueblo de pequeñas casas excavadas en las verdes colinas de una montaña. En la trama, este es el hogar de Frodo, Bilbo, Sam y los demás hobbits de la comarca.  Los realizadores decidieron dejar el set de rodaje como atractivo turístico.
     </string>
+    <string name="TongariroDescripcionLarga">
+        Lagos de color turquesa, fuentes termales y volcanes de cumbres nevadas conforman el impresionante paisaje del Parque Nacional de Tongariro. Este fantástico lugar ha sido declarado Patrimonio de la Humanidad por la Unesco, no sólo por su belleza natural, sino por los elementos culturales maoríes que atesora.\n \n
+        En el centro del parque encontramos tres volcanes activos de imponentes dimensiones: el Tongariro, el Ruapehu y el Ngauruhoe. Estas y otras cumbres son conocidas como tapus en maorí, lo que significa que son lugares sagrados.
+    </string>
+    <string name="MilfordSoundDescripcionLarga">
+        Milford Sound, también conocido como Piopiotahi, es uno de los principales destinos turísticos que ver en Nueva Zelanda. Se trata de un fiordo situado en la Isla Sur, cuya belleza resulta indescriptible. De hecho, muchos lo consideran la octava maravilla del mundo debido a los impresionantes paisajes que ofrece a sus visitantes. \n \n
+        Este fiordo está situado dentro del Parque Nacional de Fiordland y su longitud supera los 15 kilómetros tierra adentro. Llaman la atención los espectaculares acantilados que surgen de las aguas y se elevan hasta mil metros sobre la superficie del mar.
+    </string>
 </resources>

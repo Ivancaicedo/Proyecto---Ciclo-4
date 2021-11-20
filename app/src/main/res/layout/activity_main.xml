@@ -8,6 +8,8 @@
     android:layout_height="match_parent"
     android:background="#D8D8D8">
 
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -43,6 +45,7 @@
         android:layout_marginTop="80dp"
         android:background="@drawable/borde_redondo"
         app:layout_constraintTop_toTopOf="parent">
+
 
         <LinearLayout
             android:layout_width="wrap_content"

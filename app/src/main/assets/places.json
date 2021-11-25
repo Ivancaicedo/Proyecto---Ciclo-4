@@ -1,0 +1,65 @@
+{
+  "places": [
+    {
+      "imgUrl": "@mipmap/plazabolivar",
+      "name": "Minas de sal de Nemocón ",
+      "contactInfo": "Departamento: Cundinamarca",
+      "description": "Nemocón es un pueblo en Cundinamarca famoso por su gran actividad minera. A pocos kilómetros de Bogotá, se puede llegar a este lugar para explorar las minas de sal que están abiertas al público, donde se pueden apreciar los increíbles espejos de agua adecuados con hermosa iluminación."
+    },
+    {
+      "name": "Parque Nacional Natural El Tuparro",
+      "contactInfo": "Departamento: Vichada",
+      "description": "El Parque Nacional Natural El Tuparro es una reserva natural de gran extensión en el departamento de Vichada que ofrece al visitante hermosos ríos, gran variedad de vegetación, la posibilidad de ver jaguares, tapires y animales de la región, además de cientos de especies de aves."
+    },
+    {
+      "name": "Punta Gallinas",
+      "contactInfo": "Departamento: La Guajira",
+      "description": "Visitar el extremo norte del país y del continente suramericano es una experiencia inigualable. Punta Gallinas ofrece paisajes espectaculares pasando por desiertos, playas, bahías con flamencos rosados y gigantes dunas de arena dorada. También se puede vivir la experiencia de compartir con la comunidad indígena Wayuu."
+    },
+    {
+      "name": "Caño Cristales",
+      "contactInfo": "Departamento: Meta",
+      "description": "Ubicado en la sierra de la Macarena en el Meta, se encuentra Caño Cristales, llamado por muchos portales de turismo a nivel internacional como el “río más hermoso del mundo”. Esto es debido a los diversos colores que se pueden observar en el fondo gracias a la presencia de plantas acuáticas que le dan esas tonalidades características."
+    },
+    {
+      "name": "Reserva Río Claro",
+      "contactInfo": "Departamento: Antioquia",
+      "description": "A tres horas de la capital antioqueña se encuentra Río Claro, una hermosa reserva donde se observa el paso del río en medio de un cañón con hermosas formaciones en mármol. En Río Claro se pueden hacer actividades como rafting, canopy, exploración de las cavernas y avistamiento de aves."
+    },
+    {
+      "name": "Cerro Azul",
+      "contactInfo": "Departamento: Guaviare",
+      "description": "A 47 Km de San José del Guaviare está ubicado Cerro Azul, una montaña que sobresale entre la selva, y con toda razón, ya que en ella se observan una serie de pinturas rupestres que conforman un hermoso mural de color rojizo y de gran valor histórico."
+    },
+    {
+      "name": "Desierto de la Tatacoa",
+      "contactInfo": "Departamento: Huila",
+      "description": "Estar en el desierto de la Tatacoa es una experiencia inolvidable. A pocas horas de Neiva, se encuentran los espectaculares paisajes llenos de colores rojo, naranja y terracota adornados por los cactus, por momentos hacen sentir al visitante que está en otro planeta. En las noches, el cielo estrellado ofrece un espectáculo sin igual."
+    },
+    {
+      "name": "Puerto Nariño",
+      "contactInfo": "Departamento: Amazonas",
+      "description": "A 47 Km de San José del Guaviare está ubicado Cerro Azul, una montaña que sobresale entre la selva, y con toda razón, ya que en ella se observan una serie de pinturas rupestres que conforman un hermoso mural de color rojizo y de gran valor histórico."
+    },
+    {
+      "name": "Santuario de las Lajas",
+      "contactInfo": "Departamento: Nariño",
+      "description": "El Santuario de las Lajas es una iglesia católica ubicada en Ipiales, sobre el cañón del río Guáitara, muy cercana a la frontera con Ecuador. La construcción es de estilo neogótico y está hecha en piedra gris y blanca. Ha sido catalogada como una de las iglesias más bonitas del mundo por el diario británico The Telegraph. Hoy en día es uno de los principales sitios turísticos del departamento de Nariño."
+    },
+    {
+      "name": "Parque Nacional Natural Utría",
+      "contactInfo": "Departamento: Chocó",
+      "description": "Una de las experiencias más increíbles para los amantes del ecoturismo es la posibilidad de ver ballenas jorobadas durante su paso por las cálidas aguas del pacífico Colombiano. En estos meses, las ballenas entran a la ensenada de Utría y es posible verlas a pocos metros de la playa."
+    },
+    {
+      "name": "Parque Natural Los Estoraques",
+      "contactInfo": "Departamento: Norte de Santander",
+      "description": "Esta área protegida de 6 km cuadrados de superficie, alberga formaciones milenarias que han sido creadas a partir del viento y el agua y que ha dado lugar a columnas, pedestales cuevas y cavernas, que forman un paisaje único de formas quebradizas y erosionadas."
+    },
+    {
+      "name": "Ciudad Perdida",
+      "contactInfo": "Departamento: Magdalena",
+      "description": "Ciudad Perdida, también conocida como Teyuna o Buritaca-200, fue un antiguo poblado indígena tayrona y sitio arqueológico perteneciente a la ciudad de Santa Marta."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Nueva Zelanda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="NuevaZelanda">Nueva Zelanda</string>
+
+    <string name="Hobbiton">Hobbiton</string>
+    <string name="HobbitonDescripcion">Entra al mundo de El Señor de los Anillos...</string>
+
+    <string name="Tongariro">Tongariro</string>
+    <string name="TongariroDescripcion">Parque Nacional de Tongariro | Un paisaje volcánico para la aventura...</string>
+
+    <string name="MilfordSound">Milford Sound</string>
+    <string name="MilfordSoundDescripcion">El fiordo más impactante que ver en Nueva Zelanda...</string>
+
+    <string name="kahurangi">kahurangi</string>
+    <string name="kahurangiDescripcion"> Parque nacional de Kahurangi | Un reto imperdible para los senderistas...</string>
+
+    <string name="CathedralCove">Cathedral Cove</string>
+    <string name="CathedralCoveDescripcion">Si has visto Las Crónicas de Narnia es posible que la Cathedral Cove te suene...</string>
+
+    <string name="ElephantRocks">Elephant Rocks</string>
+    <string name="ElephantRocksDescripcion">Peculiares caprichos de la geología neozelandesa...</string>
+
+    <string name="CuevasDeWaitomo">Cuevas de Waitomo</string>
+    <string name="CuevasDeWaitomoDescripcion">Uno de los sitios imperdibles que ver en Nueva Zelanda...</string>
+
+    <string name="Christchurch">Christchurch</string>
+    <string name="ChristchurchDescripcion">Combinación de herencia colonial y modernidad...</string>
+
+    <string name="HobbitonDescripcionLarga">
+        Si algo posicionó a Nueva Zelanda en el top ten de los destinos turísticos, sin duda es la trilogía de El Señor de los Anillos. Se trata de una de las películas más premiadas y taquilleras de todos los tiempos. Miles visitan el país para explorar los paisajes que Gandalf, Aragorn, Frodo y compañía recorren en la historia. ¿Los recuerdas? \n \n
+
+        Uno de los sitios emblemáticos es Hobbiton en Nueva Zelanda, un pueblo de pequeñas casas excavadas en las verdes colinas de una montaña. En la trama, este es el hogar de Frodo, Bilbo, Sam y los demás hobbits de la comarca.  Los realizadores decidieron dejar el set de rodaje como atractivo turístico.
+    </string>
+    <string name="TongariroDescripcionLarga">
+        Lagos de color turquesa, fuentes termales y volcanes de cumbres nevadas conforman el impresionante paisaje del Parque Nacional de Tongariro. Este fantástico lugar ha sido declarado Patrimonio de la Humanidad por la Unesco, no sólo por su belleza natural, sino por los elementos culturales maoríes que atesora.\n \n
+        En el centro del parque encontramos tres volcanes activos de imponentes dimensiones: el Tongariro, el Ruapehu y el Ngauruhoe. Estas y otras cumbres son conocidas como tapus en maorí, lo que significa que son lugares sagrados.
+    </string>
+    <string name="MilfordSoundDescripcionLarga">
+        Milford Sound, también conocido como Piopiotahi, es uno de los principales destinos turísticos que ver en Nueva Zelanda. Se trata de un fiordo situado en la Isla Sur, cuya belleza resulta indescriptible. De hecho, muchos lo consideran la octava maravilla del mundo debido a los impresionantes paisajes que ofrece a sus visitantes. \n \n
+        Este fiordo está situado dentro del Parque Nacional de Fiordland y su longitud supera los 15 kilómetros tierra adentro. Llaman la atención los espectaculares acantilados que surgen de las aguas y se elevan hasta mil metros sobre la superficie del mar.
+    </string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Notificaciones</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="preferences">Ajustes</string>
+</resources>

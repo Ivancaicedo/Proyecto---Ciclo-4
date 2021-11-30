@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardlista"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layoutView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imagenV"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:clipToOutline="true"
+            app:srcCompat="@mipmap/dhfedfhae" />
+
+        <TextView
+            android:id="@+id/nombreV"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="51dp"
+            android:layout_toEndOf="@+id/imagenV"
+            android:color="@color/white"
+            android:text="@string/Hobbiton"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descripcionV"
+            android:layout_width="206dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/nombreV"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="19dp"
+            android:layout_toEndOf="@+id/imagenV"
+            android:color="@color/white"
+            android:text="@string/HobbitonDescripcion"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

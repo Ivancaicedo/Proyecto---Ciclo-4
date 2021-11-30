@@ -3,19 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/drawable/borde_redondo.xml" value="0.1375" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/drawable/ic_settings.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/drawable/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/layout/fragment_detail.xml" value="0.18" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/layout/list_item_view.xml" value="0.18" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/menu/menu_overflow.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1375" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/MagicalPlaces/src/main/res/xml/root_preferences.xml" value="0.2" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/drawable/borde_redondo.xml" value="0.1508361204013378" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/drawable/splash_screen.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_barra_navegacion.xml" value="0.1" />
-        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main3.xml" value="0.25101351351351353" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main4.xml" value="0.2418918918918919" />
-        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main5.xml" value="0.25101351351351353" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/activity_main5.xml" value="0.22" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/fragment_maps.xml" value="0.12567567567567567" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/hobbiton.xml" value="0.25" />
+        <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/settings_activity.xml" value="0.13817567567567568" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/layout/toolbar.xml" value="0.14046822742474915" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14189189189189189" />
         <entry key="..\:/Users/charr/OneDrive/MisionTic/Mi Ciclo 4 - Kotlin/START/app/src/main/res/menu/toolbar.xml" value="0.25" />

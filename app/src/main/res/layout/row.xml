@@ -3,7 +3,7 @@
     android:id="@+id/cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,6 +11,16 @@
         android:orientation="vertical"
         android:padding="10dp"
         android:background="@drawable/customborder">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tvimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="center">
+        </ImageView>
         <TextView
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
@@ -18,7 +28,8 @@
             android:text="Name"
             android:textColor="#000"
             android:textSize="20sp"
-            android:textStyle="bold">
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/tvimage">
         </TextView>
         <TextView
             android:id="@+id/tvEmail"
@@ -27,7 +38,9 @@
             android:text="Ubicación"
             android:textColor="#000"
             android:textSize="15sp"
-            android:textStyle="italic">
+            android:textStyle="italic"
+            android:layout_toRightOf="@+id/tvimage"
+            android:layout_below="@+id/tvName">
         </TextView>
         <TextView
             android:id="@+id/tvDescription"
@@ -35,8 +48,11 @@
             android:layout_height="wrap_content"
             android:text="Description"
             android:textColor="#000"
-            android:textSize="15sp">
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/tvimage"
+            android:layout_below="@+id/tvEmail">
         </TextView>
+        </RelativeLayout>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

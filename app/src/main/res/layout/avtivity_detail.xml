@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="30dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nemocón es un pueblo en Cundinamarca famoso por su gran actividad minera. A pocos kilómetros de Bogotá, se puede llegar a este lugar para explorar las minas de sal que están abiertas al público, donde se pueden apreciar los increíbles espejos de agua adecuados con hermosa iluminación."
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+</FrameLayout>

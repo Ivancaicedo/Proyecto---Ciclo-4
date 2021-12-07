@@ -1,4 +1,4 @@
-package com.example.magicalplaces.detail
+package com.example.magicalplaces.ui.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
+import com.example.magicalplaces.R
 import com.example.magicalplaces.databinding.FragmentDetailBinding
-import com.example.magicalplaces.main.MainActivity
+import com.example.magicalplaces.ui.main.MainActivity
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
+import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
 
@@ -20,7 +27,8 @@ class DetailFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         detailBinding = FragmentDetailBinding.inflate(inflater, container, false)
@@ -30,12 +38,18 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val lugar = args.lugar
+        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment?.getMapAsync(callback)
 
         with(detailBinding) {
             nombreV.text = lugar.nombre
             descripcionLargaV.text = lugar.descripcionLarga
-            com.squareup.picasso.Picasso.get().load(lugar.imagen).into(imagenV)
+            Picasso.get().load(lugar.imagen).into(imagenVD)
         }
     }
-
+    private val callback = OnMapReadyCallback { googleMap ->
+        val hobbiton = LatLng(-37.857694, 175.6807138)
+        googleMap.addMarker(MarkerOptions().position(hobbiton).title("Hobbiton"))
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(hobbiton,17f),3000,null)
+    }
 }

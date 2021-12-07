@@ -13,7 +13,6 @@
         android:id="@+id/layoutView"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +20,7 @@
 
 
         <ImageView
-            android:id="@+id/imagenV"
+            android:id="@+id/imagenVD"
             android:layout_width="189dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
@@ -36,7 +35,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="51dp"
-            android:layout_toEndOf="@+id/imagenV"
+            android:layout_toEndOf="@+id/imagenVD"
             android:color="@color/white"
             android:text="@string/Hobbiton"
             android:textSize="23sp"
@@ -51,7 +50,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="14dp"
             android:layout_marginEnd="19dp"
-            android:layout_toEndOf="@+id/imagenV"
+            android:layout_toEndOf="@+id/imagenVD"
             android:color="@color/white"
             android:text="@string/HobbitonDescripcion"
             android:textSize="16sp" />

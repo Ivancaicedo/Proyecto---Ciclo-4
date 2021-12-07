@@ -13,25 +13,30 @@ import com.squareup.picasso.Picasso
 class CustomAdapter(
     private val lugarList:ArrayList<LugarItem>,
     private val onItemClicked:(LugarItem) -> Unit
-) : RecyclerView.Adapter<CustomAdapter.ViewHolder>(){
+) : RecyclerView.Adapter<CustomAdapter.LugarViewHolder>(){
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LugarViewHolder {
         val vista = LayoutInflater.from(parent.context).inflate(R.layout.list_item_view,parent,false)
-        return ViewHolder(vista)
+        return LugarViewHolder(vista)
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: LugarViewHolder, position: Int) {
         val lugar = lugarList[position]
-        holder.itemView.setOnClickListener { onItemClicked(lugarList[position]) }
+        holder.itemView.setOnClickListener { onItemClicked(lugarList[position])}
         holder.bind(lugar)
     }
 
     override fun getItemCount(): Int = lugarList.size
+    fun appendItems(newItems: ArrayList<LugarItem>) {
+        lugarList.clear()
+        lugarList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
-    class ViewHolder(vista: View) : RecyclerView.ViewHolder(vista) {
-        private var nombre: TextView = vista.findViewById(R.id.nombreV)
-        private var descripcion: TextView = vista.findViewById(R.id.descripcionV)
-        private var imagen: ImageView = vista.findViewById(R.id.imagenV)
+    class LugarViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private var nombre: TextView = itemView.findViewById(R.id.nombreV)
+        private var descripcion: TextView = itemView.findViewById(R.id.descripcionV)
+        private var imagen: ImageView = itemView.findViewById(R.id.imagenVD)
 
         fun bind(lugar: LugarItem) {
             nombre.text = lugar.nombre

@@ -1,4 +1,4 @@
-package com.example.magicalplaces.main
+package com.example.magicalplaces.ui.main
 
 import android.os.Bundle
 import android.view.Menu
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.magicalplaces.R
-import com.example.magicalplaces.preference.SettingsFragment
+import com.example.magicalplaces.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

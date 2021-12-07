@@ -1,11 +1,11 @@
-package com.example.magicalplaces.preference
+package com.example.magicalplaces.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.example.magicalplaces.R
-import com.example.magicalplaces.main.MainActivity
+import com.example.magicalplaces.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

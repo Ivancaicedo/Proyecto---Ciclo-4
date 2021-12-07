@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#D8D8D8"
     android:orientation="vertical"
-    tools:context=".list.ListFragment">
+    tools:context=".ui.list.ListFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView

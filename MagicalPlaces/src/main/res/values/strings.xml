@@ -55,4 +55,5 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="preferences">Ajustes</string>
+    <string name="imagenvdgrande">imagenVDgrande</string>
 </resources>

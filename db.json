@@ -8,7 +8,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Hobbiton-set-de-rodaje-de-El-Sen%CC%83or-de-los-Anillos.jpg",
       "latitud": -37.857694,
       "longitud": 175.6807138,
-      "zoom": "19f"
+      "zoom": 19f
     },
     {
       "nombre": "Tongariro",
@@ -17,7 +17,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Te-Papa-National-Museum.jpg",
       "latitud": -39.12800608729463,
       "longitud": 175.6353348442958,
-      "zoom": "13f"
+      "zoom": 13f
     },
     {
       "nombre": "Milford Sound",
@@ -26,7 +26,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Parque-nacional-de-Kahurangi.jpg",
       "latitud": -44.64097004817354,
       "longitud": 167.8974364347241,
-      "zoom": "13f"
+      "zoom": 13f
     },
     {
       "nombre": "kahurangi",
@@ -35,7 +35,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Parque-Nacional-de-Tongariro.jpg",
       "latitud": -41.115466496336914, 
       "longitud": 172.47566193640483,
-      "zoom": "13.5f"
+      "zoom": 13.5f
     },
     {
       "nombre": "Cathedral Cove",
@@ -44,7 +44,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-5.jpg",
       "latitud": -36.828616066222445,
       "longitud": 175.790654294259,
-      "zoom": "18f"
+      "zoom": 18f
     }
   ,
     {
@@ -54,7 +54,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Elephant-Rocks.jpg",
       "latitud": -44.89021740076276,
       "longitud": 170.65636919253447,
-      "zoom": "15f"
+      "zoom": 15f
     },
     {
       "nombre": "Cuevas de Waitomo",
@@ -63,7 +63,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Cuevas-de-Waitomo.jpg",
       "latitud": -38.25882404217397,
       "longitud": 175.10521815384965,
-      "zoom": "13f"
+      "zoom": 13f
     }
   ,
     {
@@ -73,7 +73,7 @@
       "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que-ver-en-Nueva-Zelanda-Christchurch.jpg",
       "latitud": -43.51777583436578,
       "longitud": 172.62507008884137,
-      "zoom": "14.3f"
+      "zoom": 14.3f
     }
   ]
 }

@@ -19,5 +19,4 @@ object WebService {
         .run{
             create(ApiService::class.java)
         }
-
 }

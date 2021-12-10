@@ -21,6 +21,8 @@ class DetailFragment : Fragment() {
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         (activity as MainActivity?)?.showIcon()
@@ -38,7 +40,7 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val lugar = args.lugar
-        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        val mapFragment = childFragmentManager.findFragmentById(R.id.mapView) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
 
         with(detailBinding) {
@@ -48,8 +50,9 @@ class DetailFragment : Fragment() {
         }
     }
     private val callback = OnMapReadyCallback { googleMap ->
-        val hobbiton = LatLng(-37.857694, 175.6807138)
-        googleMap.addMarker(MarkerOptions().position(hobbiton).title("Hobbiton"))
-        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(hobbiton,17f),3000,null)
+        val lugar = args.lugar
+        val hobbiton = LatLng(lugar.latitud.toDouble(), lugar.longitud.toDouble())
+        googleMap.addMarker(MarkerOptions().position(hobbiton).title(lugar.nombre))
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(hobbiton,13.5f),2300,null)
     }
 }

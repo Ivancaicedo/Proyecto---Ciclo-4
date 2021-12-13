@@ -1,0 +1,79 @@
+{
+  "lugares":
+  [
+    {
+      "nombre": "Hobbiton",
+      "descripcion" : "Entra al mundo de El Señor de los Anillos...",
+      "descripcionLarga" : "Si algo posicionó a Nueva Zelanda en el top ten de los destinos turísticos, sin duda es la trilogía de El Señor de los Anillos. Se trata de una de las películas más premiadas y taquilleras de todos los tiempos. Miles visitan el país para explorar los paisajes que Gandalf, Aragorn, Frodo y compañía recorren en la historia. \n\n¿Los recuerdas? Uno de los sitios emblemáticos es Hobbiton en Nueva Zelanda, un pueblo de pequeñas casas excavadas en las verdes colinas de una montaña. En la trama, este es el hogar de Frodo, Bilbo, Sam y los demás hobbits de la comarca.  Los realizadores decidieron dejar el set de rodaje como atractivo turístico.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Hobbiton-set-de-rodaje-de-El-Sen%CC%83or-de-los-Anillos.jpg",
+      "latitud": -37.857694,
+      "longitud": 175.6807138,
+      "zoom": 19
+    },
+    {
+      "nombre": "Tongariro",
+      "descripcion" : "Parque Nacional de Tongariro | Un paisaje volcánico para la aventura...",
+      "descripcionLarga" : "Lagos de color turquesa, fuentes termales y volcanes de cumbres nevadas conforman el impresionante paisaje del Parque Nacional de Tongariro. Este fantástico lugar ha sido declarado Patrimonio de la Humanidad por la Unesco, no sólo por su belleza natural, sino por los elementos culturales maoríes que atesora. \n\nEn el centro del parque encontramos tres volcanes activos de imponentes dimensiones: el Tongariro, el Ruapehu y el Ngauruhoe. Estas y otras cumbres son conocidas como tapus en maorí, lo que significa que son lugares sagrados.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Te-Papa-National-Museum.jpg",
+      "latitud": -39.12800608729463,
+      "longitud": 175.6353348442958,
+      "zoom": 13
+    },
+    {
+      "nombre": "Milford Sound",
+      "descripcion" : "El fiordo más impactante que ver en Nueva Zelanda...",
+      "descripcionLarga" : "Milford Sound, también conocido como Piopiotahi, es uno de los principales destinos turísticos que ver en Nueva Zelanda. Se trata de un fiordo situado en la Isla Sur, cuya belleza resulta indescriptible. De hecho, muchos lo consideran la octava maravilla del mundo debido a los impresionantes paisajes que ofrece a sus visitantes. \n\n Este fiordo está situado dentro del Parque Nacional de Fiordland y su longitud supera los 15 kilómetros tierra adentro. Llaman la atención los espectaculares acantilados que surgen de las aguas y se elevan hasta mil metros sobre la superficie del mar.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Parque-nacional-de-Kahurangi.jpg",
+      "latitud": -44.64097004817354,
+      "longitud": 167.8974364347241,
+      "zoom": 13
+    },
+    {
+      "nombre": "kahurangi",
+      "descripcion" : "Parque nacional de Kahurangi | Un reto imperdible para los senderistas...",
+      "descripcionLarga" : "Este parque nacional, el segundo más grande de Nueva Zelanda, ofrece mucho encanto y una naturaleza soberbia. Su variada geografía es ideal para las prácticas deportivas, desde la escalada, el rafting y los descensos de cañones, hasta actividades más tranquilas como el senderismo.\n\nDe hecho, el parque de Kahurangi alberga una de las rutas de senderismo más famosas del país: The Heaphy Track. Con más de 82 kilómetros, esta vía cruza el parque y suele completarse en unos cuatro días.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Parque-Nacional-de-Tongariro.jpg",
+      "latitud": -41.115466496336914, 
+      "longitud": 172.47566193640483,
+      "zoom": 13.5
+    },
+    {
+      "nombre": "Cathedral Cove",
+      "descripcion" : "Si has visto Las Crónicas de Narnia es posible que la Cathedral Cove te suene...",
+      "descripcionLarga" : "Si has visto Las Crónicas de Narnia es posible que la Cathedral Cove te suene de algo. Efectivamente, se trata del portal de entrada a Narnia que la familia Pevensie cruza al inicio de «El príncipe Caspian». Se trata de un extraordinario arco de roca rodeado de fantásticas playas que se encuentra en la península de Coromandel.\n\nA Cathedral Cove se llega andando, en barco o en kayak. Hay que tener dos cosas en cuenta. Lo primero es que al tratarse de uno de los sitios que ver en Nueva Zelanda más populares es recomendable ir temprano.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-5.jpg",
+      "latitud": -36.828616066222445,
+      "longitud": 175.790654294259,
+      "zoom": 18
+    }
+  ,
+    {
+      "nombre": "Elephant Rocks",
+      "descripcion" : "Peculiares caprichos de la geología neozelandesa...",
+      "descripcionLarga" : "Este curioso lugar también ha sido set de rodaje de las saga de Narnia. Y es que el paisaje de Elephant Rocks, con verdes colinas salpicadas por grandes rocas grises, es bastante singular. Estas formaciones derivan de un manto de roca caliza que por siglos se ha ido erosionando hasta que sólo han quedado las partes que tenían una mayor dureza.\n\nSi ves estas rocas desde la distancia, es muy posible que las confundas con una manada de elefantes.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Elephant-Rocks.jpg",
+      "latitud": -44.89021740076276,
+      "longitud": 170.65636919253447,
+      "zoom": 15
+    },
+    {
+      "nombre": "Cuevas de Waitomo",
+      "descripcion" : "Uno de los sitios imperdibles que ver en Nueva Zelanda...",
+      "descripcionLarga" : "Las cuevas de Waitomo te dejarán boquiabierto. Además de las típicas estalactitas y estalagmitas que podemos encontrar en cavernas de todo el mundo, tienen una peculiaridad espectacular: ¡son luminiscentes!\n\nEsta cualidad se la deben a su principal inquilino, el glowworm (luciérnaga) de Nueva Zelanda. El brillo químico de este insecto ilumina el techo como una bóveda estrellada. ¡Puedes contemplar el espectáculo navegando por el río que cruza el lugar! Sin duda, las cuevas de Waitomo son otro de los lugares que ver en Nueva Zelanda que no pueden faltar en tu itinerario.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que%CC%81-ver-en-Nueva-Zelanda-Cuevas-de-Waitomo.jpg",
+      "latitud": -38.25882404217397,
+      "longitud": 175.10521815384965,
+      "zoom": 13
+    }
+  ,
+    {
+      "nombre": "Christchurch",
+      "descripcion" : "Combinación de herencia colonial y modernidad...",
+      "descripcionLarga" : "Christchurch es la tercera ciudad más grande de Nueva Zelanda después de Wellington y Auckland. Hay varias cosas que hacer en esta ciudad de gran herencia inglesa y para todos los gustos. Podemos ir a tiendas y cafés, visitar el Museo de Canterbury o a la catedral neogótica de Christchuch o pasear por el río Avon, que se desliza por el centro de la ciudad.\n\nTambién vale la pena pasar el día en el Parque Natural Orana, Port Hills , Hagley Park, o en Jardines Botánicos.",
+      "imagen": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/01/Que-ver-en-Nueva-Zelanda-Christchurch.jpg",
+      "latitud": -43.51777583436578,
+      "longitud": 172.62507008884137,
+      "zoom": 14.3
+    }
+  ]
+}
